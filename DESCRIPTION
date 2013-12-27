@@ -1,0 +1,29 @@
+Package: RVignetteExample
+Title: Minimal Example of a Package Nonstandard Vignette
+Description: Minimal example of a legal R vignette using devtools and knitr's
+    code-behind
+Version: 0.1
+Date: 2013-12-27
+Authors@R: c(person("Will", "Beasley", role = c("aut", "cre"), email =
+    "wibeasley@hotmail.com"))
+URL: https://github.com/wibeasley/RVignetteExample
+Depends:
+    R (>= 3.0.0),
+    stats
+Imports:
+    boot,
+    colorspace,
+    ggplot2,
+    grid,
+    lubridate,
+    plyr,
+    RColorBrewer,
+    scales,
+    testit
+Suggests:
+    devtools,
+    knitr,
+    testthat
+License: GPL (>= 2)
+LazyData: true
+VignetteBuilder: knitr

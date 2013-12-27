@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+.gitignore
+
+REDCapRDocumentationPeek.pdf
+documentation_for_developers/
+playgrounds/
+utility_scripts/
