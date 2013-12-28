@@ -2,7 +2,5 @@
 ^\.Rproj\.user$
 .gitignore
 
-REDCapRDocumentationPeek.pdf
-documentation_for_developers/
-playgrounds/
+RVignetteExampleDocumentationPeek.pdf
 utility_scripts/

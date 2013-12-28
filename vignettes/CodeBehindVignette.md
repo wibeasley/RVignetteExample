@@ -3,14 +3,16 @@
 %\VignetteIndexEntry{Code Behind Vignette}
 -->
 
-# Goals of this Pacakge
-This vignette is a minimal exmaple of an R package that has a nonstandard vignette.  I would like to have a working exmaple of a vignette with these features: 
- 1. Uses `knitr` instead of `Sweave` to build the vignette.  
+# Goals of this Package
+This vignette is a minimal example of an R package that has a nonstandard vignette.  I would like to have a working example of a vignette with these features: 
+ 1. Is built with `knitr` instead of `Sweave`.  
  1. Uses `knitr`'s [code externalization](http://yihui.name/knitr/demo/externalization/) feature, where almost all the R code lives in a dedicated *.R file.
- 1. Is **not** rebuilt every time the package is checked.  I am pretending this vignette takes a long time to run and compile, and sould be run on CRAN or win-builder computer (or even run on the developer's computer is they don't want to take 5+ minutes)
+ 1. Is **not** rebuilt every time the package is checked.  I am pretending this vignette takes a long time to run and compile, and should be run on CRAN or win-builder computer (or even run on the developer's computer is they don't want to take 5+ minutes)
  1. Saves images to a dedicated directory to make it easier to track changes in GitHub.  Presumably this directory is `./vignettes/FigureRmd`.
 
-I chose and Rmd file instead of a Rnw, so that it could be run on more development boxes, and increase the chance of getting a more helpful & portable response.
+I chose an Rmd file instead of a Rnw, so that it could be more portable and run on more development boxes, and increase the chance of getting a more helpful response.  If these two types of files handles things differently, I'll add an Rnw example.
+
+I am intentionally not using knitr's caching mechanism, in case it makes package development and portability trickier.
 
 
 
@@ -33,7 +35,7 @@ print(a1)
 ```
 
 ```
-[1] "knjqfhabpy"
+[1] "eciwylrzqu"
 ```
 
 
@@ -45,7 +47,7 @@ print(a2)
 ```
 
 ```
-[1] "smilzopqdu"
+[1] "glaikreucn"
 ```
 
 
@@ -79,7 +81,7 @@ The current vignette was build on a system using the following software.
 
 
 ```
-Report created by Will at 12/27/2013 5:47:29 PM, Central Standard Time
+Report created by Will at 12/27/2013 6:08:51 PM, Central Standard Time
 ```
 
 ```
