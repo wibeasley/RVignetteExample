@@ -8,7 +8,7 @@ devtools::check_doc() #Should return NULL
 
 devtools::run_examples(); dev.off() #This overwrites the NAMESPACE file too
 
-test_results <- devtools::test()
+# test_results <- devtools::test()
 devtools::clean_vignettes()
 devtools::build_vignettes()
 
