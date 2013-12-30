@@ -19,7 +19,10 @@ run every time the pacakge is built.  The vignette code
 should be run only on the developer's computer
 }
 \examples{
+require(graphics)
 require(RVignetteExample)
-ComplicatedFunction(operationDurationInSeconds=2)
+(randomLetters <- ComplicatedFunction(operationDurationInSeconds=2))
+plot(x=1:10, y=10:1)
+text(x=1:10, y=1:10, labels=randomLetters)
 }
 

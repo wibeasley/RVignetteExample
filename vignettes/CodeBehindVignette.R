@@ -35,4 +35,3 @@ grid::pushViewport(grid::viewport(layout.pos.col=1, layout.pos.row=1))
 grid::grid.rect(gp=grid::gpar(fill="gray90", col="gray10")) 
 grid::grid.text(a2, x=0, y=0, hjust=-.1, vjust=-.2, gp=grid::gpar(cex=1.5, col="blue", lineheight=.8, fill="tan1"), default.units="npc")
 grid::popViewport(2)
-

@@ -10,7 +10,6 @@ devtools::run_examples(); dev.off() #This overwrites the NAMESPACE file too
 
 # test_results <- devtools::test()
 devtools::clean_vignettes()
-devtools::build_vignettes()
+devtools::build_vignettes() #Recover the codebehind file when it is deleted.
 
 # devtools::build_win(version="R-devel") #CRAN submission policies encourage the development version
-devtools::revdep_check(pkg="Wats", recursive=TRUE)

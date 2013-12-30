@@ -11,8 +11,11 @@
 ##' 
 ##' @return Returns a random  \code{character}  value that is 10 lowercase letters long.
 ##' @examples
+##' require(graphics)
 ##' require(RVignetteExample)
-##' ComplicatedFunction(operationDurationInSeconds=2)
+##' (randomLetters <- ComplicatedFunction(operationDurationInSeconds=2))
+##' plot(x=1:10, y=10:1)
+##' text(x=1:10, y=1:10, labels=randomLetters)
 
 ComplicatedFunction <- function( operationDurationInSeconds = 5.0 ) {  
   testit::assert("The `operationDurationInSeconds` must be a positive numeric value.", operationDurationInSeconds >= 0)
